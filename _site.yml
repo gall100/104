@@ -1,0 +1,37 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "My Website"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-info
+      href: about.html
+    - text: "Ecuaciones"
+      icon: fa-ecuaciones
+      href: ED_R-vqd.html 
+    - text: "More"
+      icon: fa-gear
+      menu:
+        - text: "Cursos"
+        - text: "Ecuaciones diferenciales"
+          href: ED_R-vqd.html
+        - text: "Page B"
+          href: page-B.html
+        - text: "---------"
+        - text: "Matemática Básica"
+        - text: "Page C"
+          href: Aprendizaje-significativo.html
+        - text: "Page D"
+          href: page-d.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
+  

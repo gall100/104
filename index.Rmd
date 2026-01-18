@@ -1,0 +1,24 @@
+---
+title: "My Website"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+
+# Hola a todos, bienvenidos a mi página.
+..... Bienvenido.
+
+# crecimiento logistico
+
+ecuacion diferencial: $N'=rN(1-N/k)$.
+
+solucion analitica: $N =(k*No*exp(rt)/(k + No*(exp(rt) - 1))$.
+
+
+```{r}
+plot(2)
+```
+
+
