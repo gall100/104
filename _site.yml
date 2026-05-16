@@ -20,7 +20,7 @@ navbar:
         - text: "Ecuaciones diferenciales"
           href: ED_R-vqd.html
         - text: "Page B"
-          href: mmm.html
+          href: page-B.html
         - text: "---------"
         - text: "Matemática Básica"
         - text: "Page C"
